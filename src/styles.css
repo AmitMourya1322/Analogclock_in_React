@@ -1,0 +1,43 @@
+.clockContainer {
+  position: relative;
+  margin: auto;
+  height: 40vw;
+  /*to make the height and width responsive*/
+  width: 40vw;
+  border-radius: 50%; /* set border-radius to 50% for a circle */
+  border: 3px solid black; /* set border style, width, and color */
+  /*setting our background image*/
+}
+
+.hour,
+.minute,
+.second {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+.hour {
+  width: 1.8%;
+  height: 25%;
+  top: 25%;
+  left: 48.85%;
+  opacity: 0.8;
+}
+
+.minute {
+  width: 1.6%;
+  height: 30%;
+  top: 19%;
+  left: 48.9%;
+  opacity: 0.8;
+}
+
+.second {
+  width: 1%;
+  height: 40%;
+  top: 9%;
+  left: 49.25%;
+  opacity: 0.8;
+}
